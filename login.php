@@ -57,11 +57,11 @@ input[type=submit]:hover {
 <h3>SIGN UP FORM</h3>
 
 <div class="container">
-  <form action="cfg.php" method="POST">
-    <label for="username">First Name</label>
+  <form action="login-action.php" method="POST">
+    <label for="username">Username</label>
     <input type="text" name="firstname" placeholder="username">
 
-    <label for="password">Last Name</label>
+    <label for="password">Password</label>
     <input type="password" name="password" placeholder="password">
 
     <input type="submit" value="Submit">
@@ -70,3 +70,6 @@ input[type=submit]:hover {
 
 </body>
 </html>
+
+
+

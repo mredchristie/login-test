@@ -23,9 +23,9 @@ print_r($_POST);
 
 <!-- need to remeber that if I want to add somem html within my php then I need to end off ?> the php and you can embed php like  -->
 <hr>
-usernamee = <?= $_POST['firstname'] ?>
+username = <?= $_POST['firstname'] ?>
 <br>
-passwordd = <?= $_POST['password']?>
+password = <?= $_POST['password']?>
 <!-- this is just outputting the data of the php variables lname and fname -->
 
 
