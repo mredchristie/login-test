@@ -7,5 +7,4 @@
 
 
 <button type="button" class="btn btn-info"><a href="sign-up.html" >Sign up here</a></button>
-<button type="button" class="btn btn-info"><a href="login.html" >Login Here</a>
-</button>
+<button type="button" class="btn btn-info"><a href="login.html" >Login Here</a></button>
