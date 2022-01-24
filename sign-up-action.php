@@ -61,6 +61,8 @@ if ($conn->query($sql) === TRUE) {
   }
 
 
+  header('Location: index.php');
+
 ?>
 
 </body>
