@@ -12,9 +12,7 @@ if ($row = $result->fetch_assoc()){
 
     if (password_verify($pass, $row['password'])) {
         session_start();
-        echo ' User ID -  ';
         $_SESSION['userid'] = $row['ID'];
-        ECHO 'Username - ';
         $_SESSION['username'] = $user;
         header("Location: LOGGEDIN.php");
     

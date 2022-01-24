@@ -6,5 +6,32 @@
 
 
 
-<button type="button" class="btn btn-info"><a href="sign-up.html" >Sign up here</a></button>
-<button type="button" class="btn btn-info"><a href="login.html" >Login Here</a></button>
+<button type="button" class="btn btn-info"><a href="sign-up.php" >Sign up here</a></button>
+<button type="button" class="btn btn-info"><a href="login.php" >Login Here</a></button>
+
+
+Click here to <a href="logout.php" tite="Logout">Logout.</a>
+
+
+
+
+<?php
+
+
+
+
+session_start();
+
+if ( isset($_SESSION['username']))
+{
+  echo 'Logged in as ' . $_SESSION['username'] . ' | ' . '   User ID = '. $_SESSION['userid'];
+
+}else{
+  echo '.';
+}
+
+
+
+
+
+?>
