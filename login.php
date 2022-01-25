@@ -69,22 +69,10 @@ if ( isset($_SESSION['username']))
   echo 'Logged in as ' . $_SESSION['username'] . ' | ' . '   User ID = '. $_SESSION['userid'];
 
 }else{
-  echo '.';
+  echo 'Not logged in currently';
 }
 
-
-
-
-
 ?>
-
-
-
-
-
-    
-    
-    
     
     <button type="button" class="btn btn-info"><a href="sign-up.php" >Sign up here</a></button>
     <button type="button" class="btn btn-info"><a href="login.php" >Login Here</a>
