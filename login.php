@@ -89,6 +89,7 @@ if ( isset($_SESSION['username']))
     <button type="button" class="btn btn-info"><a href="sign-up.php" >Sign up here</a></button>
     <button type="button" class="btn btn-info"><a href="login.php" >Login Here</a>
     </button>
+    Click here to <a href="logout.php" tite="Logout">Logout.</a>
 
 
 
