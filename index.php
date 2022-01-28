@@ -10,7 +10,7 @@
 <button type="button" class="btn btn-info"><a href="login.php" >Login Here</a></button>
 
 
-Click here to <a href="logout.php" tite="Logout">Logout.</a>
+
 
 
 
@@ -35,3 +35,9 @@ if ( isset($_SESSION['username']))
 
 
 ?>
+
+Click here to <a href="logout.php" tite="Logout">Logout.</a>
+
+
+
+
